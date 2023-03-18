@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* NAVIGATION SECTION */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    height: 150px;
+    width: 150px;
+}
+nav .logo img{
+    width: 70%;
+    object-fit: contain;
+}
+.menu{
+    width:40%
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.icon i{
+    font-size: 25px;
+    color: rgb(43, 41, 41);
+    justify-content: space-between;
+    
+}
+label{
+    font-size: 14px;
+}
+nav p{
+    background-color: rgb(34, 34, 177);
+    justify-content:center ;
+}
+/* HERO SECTION */
+.hero body{
+    background-image: url("homebg.jpg");
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero .text{
+    width: 45%;
+    line-height: 32px;
+}
+.hero .text h1{
+    font-size: 40px;
+
+}
+.hero .text p{
+    font-size: 22px;
+}
+.hero .text button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    height: 50px;
+    width: 50%;
+    margin: 20px 0;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 1s all ease-in-out;
+}
+.hero .text button:hover{
+    background-color: #FBBB47;
+    color: #030F1C;
+}
+
+/* IMAGES SECTION */
+.imgs{
+    background-color: white;
+    color: black;
+}
+.imgs figure{
+    display: flex;
+    justify-content: space-between;
+}
+.imgs h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
